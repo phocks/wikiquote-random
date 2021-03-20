@@ -1,0 +1,22 @@
+{
+  "name": "wikiquote-random",
+  "version": "1.0.0",
+  "description": "A client app that gets a wiki quote",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "Joshua Byrd <phocks@gmail.com> (https://phocks.org/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.5.2",
+    "snowpack": "^3.0.13"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7",
+    "svelte": "^3.35.0",
+    "wikiquote": "^0.5.0"
+  }
+}
