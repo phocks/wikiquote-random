@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "snowpack dev",
+    "start": "parcel index.html",
     "build": "snowpack build"
   },
   "author": "Joshua Byrd <phocks@gmail.com> (https://phocks.org/)",
@@ -15,8 +15,9 @@
     "snowpack": "^3.0.13"
   },
   "dependencies": {
+    "await-to-js": "^3.0.0",
     "regenerator-runtime": "^0.13.7",
     "svelte": "^3.35.0",
-    "wikiquote": "^0.5.0"
+    "wikiquote-web": "file:../wikiquote-web"
   }
 }
